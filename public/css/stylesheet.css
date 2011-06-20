@@ -64,6 +64,9 @@ body { font: normal 14px/16px "Myriad Pro", Arial, Helvetica, sans-serif; backgr
 .summryblock2 { width:225px; padding: 0 31px 0 31px;}
 .summryblock3 { width:226px; padding: 0 32px 0 32px;}
 
+#twiliologo { margin-top: 20px; }
+#opentoklogo { margin-top: 20px; }
+
 .curlyopen, .curlyclose { width:43px; height:156px; float:left;}
 .curlyopen { background:url(../images/curlyopen.jpg) no-repeat;} 
 .curlyclose { background:url(../images/curlyclose.jpg) no-repeat;}
