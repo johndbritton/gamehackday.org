@@ -79,9 +79,10 @@ body { font: normal 14px/16px "Myriad Pro", Arial, Helvetica, sans-serif; backgr
 
 .bluerightblock { float:left; width:670px; margin-left:30px; }
 .tabslidholder { float:left; width:670px; padding-bottom:15px;}
-.tagHolder { float:left; text-align:center;text-align:center; color:#FFF; width:105px; text-transform:uppercase; margin-bottom:30px; margin-right:20px;}
-.tagtext { background:url(../images/bgtag.jpg) repeat-x; height:18px; padding: 6px 20px; }
+.tagHolder { float:left; text-align:center;text-align:center; width:145px; text-transform:uppercase; margin-bottom:30px; margin-right:20px;}
+.tagtext { color: #ffffff; background:url(../images/bgtag.jpg) repeat-x; height:18px; padding: 6px 20px; }
 .arrow{ background:url(../images/downarrow.jpg) no-repeat  top center; width:15px; height:13px; margin:0 auto;  }
+.description {text-transform:none; margin-top:5px;}
 .slid { float:left;}
 .slidheaer { color:#29353a; font:normal 36px/38px "Myriad Pro", Arial, Helvetica, sans-serif; padding:10px 0;}
 .slid p { font:normal 24px/31px "Myriad Pro", Arial, Helvetica, sans-serif; margin-top:15px; margin-bottom:15px; }
