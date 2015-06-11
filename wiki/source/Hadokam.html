@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Hadokam in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >## HADOKAM## 
+
+![hadokam](http://www.diegorioja.com/hadokam/Hadokam.jpg)
+
+slides from our presentation:
+[presentationPDF](http://www.diegorioja.com/hadokam/HadoKAM.pdf)
+
+Hadokam is a collaborated street fighter 4 hack accomplished at GameHackDay NYC 2011 by Mike Kelberman, Liangjie Xia, Bruno Kruse, Diego Rioja, Mustafa Bagdatli.
+
+A picture of a player's front face is projected to the character model extracted from the original game, and a generated skin texture is swapped back to the game for real gameplay. The character model is also hacked to allow Big Head Mode playing for a much more rewarding gameplay. A custom controller board is built (from a Mortal Kombat 2 arcade panel found on the street) to allow multiuser playing.
+
+Face mapping and texture generation is done with Processing, the controller board is powered by Arduino and simulating 2 joysticks.
+
+Hadokam won the First Prize People's Choice of GameHackDay NYC 2011.
+
+Hadokam on GameHackDay wiki (this page): [wiki.gamehackday.org/​​show/​Hadokam](http://wiki.gamehackday.org/​​show/​Hadokam)
+
+Hadokam Project Site: [hadokam.com](http://hadokam.com)
+
+## Vidz ##
+
+[![Haris as Feilong](http://cl.ly/1D3L2m2F2L2h1F2S0d0D/VID_20110626_094503_2011-06-28_%E4%B8%8A%E5%8D%8801.35.29.png)](http://vimeo.com/25699027)
+
+## Picz##
+
+![3d_face](http://www.diegorioja.com/hadokam/Screen%20shot%202011-06-26%20at%202.52.58%20AM.png)
+
+![3d_face](http://www.diegorioja.com/hadokam/Screen%20shot%202011-06-26%20at%202.58.16%20AM.png)
+
+![stella](http://www.diegorioja.com/hadokam/jelani1.PNG)
+
+![stella](http://www.diegorioja.com/hadokam/stella_!.PNG)
+
+![kenberman](http://www.diegorioja.com/hadokam/ken2.PNG)
+
+![feilong](http://i.imgur.com/rdkLZ.png)
+
+### [Mike Kelberman](http://mikelberman.com), [Liangjie Xia](http://leejayxia.com), [Bruno Kruse](http://www.brunokruse.com/), [Diego Rioja](http://diegorioja.com), [Le Moose](http://mustafabagdatli.com/) ###
+
+
+## Thankz ##</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

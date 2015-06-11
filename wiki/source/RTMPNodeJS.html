@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      RTMPNodeJS in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >## RealtimeMultiplayerNodeJS ##
+[https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs](https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs)  
+  
+**RealtimeMultiplayerNodeJS** is a framework specifically for building HTML5 multiplayer games with the Client / Server model
+in which the clients send only sampled input to the server.
+
+## Slides from JSConf2011
+[Slideshare](http://www.slideshare.net/MarioGonzalez15/realtime-html5-multiplayergameswithnodejs-7868336) / [PDF download](https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs/raw/master/assets/github_pages/Realtime_HTML5_Multiplayer_Games_with_Node_js.pdf)
+
+## Contact Info
+* Mario Gonzalez - mariogonzalez _at_ gmail
+* [@1dayitwillmake](http://twitter.com/1dayitwillmake)
+
+## Video demo
+[http://vimeo.com/24149718](http://vimeo.com/24149718)
+
+## How to use
+1. Download this repo
+2. In the terminal type &quot;node js/DemoHelloWorld/server.js&quot;
+3. Browse to &quot;/DemoHelloWorld.html&quot;
+
+[![DemoBox2D](http://farm6.static.flickr.com/5105/5694643562_fffce8b9cf_z.jpg)](http://farm6.static.flickr.com/5105/5694643562_53e54993dd_o.png)
+         
+# RealtimeMultiplayerNodeJS comes with 3 demos
+### DemoHelloWorld
+The most basic interesting working demo I could come up with. Objects move from left to right
+![DemoHelloWorld](http://farm6.static.flickr.com/5309/5694599438_6fd56e21bd_b.jpg &quot;DemoCircle&quot;)
+
+### DemoCircle
+A demonstration of the engine's simple CircleCollision engine, which can provide you with simple collision information and fires an event when two objects collide with the two objects.  
+This demo __also shows one implementation__ of having a special kind of entity which is controlled by the keyboard from a connected user. __A character controlled entity__  
+![DemoCircle](http://farm4.static.flickr.com/3483/5694599612_1cdb1f935e_b.jpg &quot;DemoCircle&quot;)
+
+### DemoBox2D 
+This demo uses a [Box2D.js](https://github.com/HBehrens/box2d.js) implementation to create a world, and show's off the idea of synchronized physics, and taking advantage that all the simulation happens on the server.  
+It also shows __synchronized interaction__ between multiple users, and an example of sending a message to the server which it interprets back into the game  
+![DemoBox2D](http://farm6.static.flickr.com/5027/5694599478_7c9339c99c_b.jpg)</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Project &quot;Baldur&quot; in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' ># Project &quot;Baldur&quot;
+## Creators
+### Erin Arden
+* Art
+* [personal site](http://www.erinarden.com)
+* [email](Erzarden@gmail.com)
+
+### Du Hoang
+* Art
+* [email](du.hoang@gmail.com)
+
+### Richard Hough
+* Programming
+* [email](rhough@riotgames.com)
+
+### Christopher McArthur
+* Programming
+* [email](cmcarthur@riotgames.com)
+
+### Andrew Woo
+* Programming
+* [email](awoo@riotgames.com)
+
+## About the Hack
+A top-down, two joystick shooter similar to [Geometry Wars] (http://en.wikipedia.org/wiki/Geometry_Wars) and [Robotron] (http://en.wikipedia.org/wiki/Robotron:_2084), with the addition of &quot;skills&quot; on cooldowns bound to the shoulder buttons. In the spirit of hacking, we went with a colorful graffiti-based art theme.
+
+## What APIs, tools or kit did you use?
+* Unity
+* Maya
+* Photoshop
+
+## Media
+_If you have photos, audio, video or screenshots of your hack, put them here._
+
+## Source code and links
+_links to code, resources, your blog or whatever_</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

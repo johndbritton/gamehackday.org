@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >[![Game Hack Day Logo](http://i.imgur.com/jo1jr.png)](http://gamehackday.org)
+[Back to the main Game Hack Day website](http://gamehackday.org)
+
+# Game Hack Day NYC - 25 &amp; 26 June 2011
+#### Game Hack Day is over, check out the hacks and awards:
+
+# Peoples Choice Awards
+1. [[Hadokam]] - Put your own face on Street Fighter
+1. [[World of Fourcraft]] - FourSquare + Risk + WoW + NYC
+1. [[Twetris]] - Expand your twitter following by playing Tetris
+
+# Category Winners
+* **Spirit of Riot Award:** [[Just a Flesh Wound]] - Kinect for Windows 7 SDK Beta on Microsoft Stack
+* **Best Video Hack:** [[Your Face]] - Shoot your friends in the face... REAL TIME!
+* **Best Voice/SMS Hack:** [[uchoos]] - A phone-based choose your own adventure.
+* **Best Location Hack:** [[World of Fourcraft]] - FourSquare + Risk + WoW + NYC
+
+# Photos
+[![Game Hack Day Photos](http://farm4.static.flickr.com/3234/5876078664_1a9bfed9d3_b.jpg)](http://www.flickr.com/photos/tags/gamehackday/show/)
+
+[Photos Tagged 'gamehackday' on Flickr](http://www.flickr.com/photos/tags/gamehackday/show/)
+
+# All Game Hacks
+
+* [[uchoos]] - A phone-based choose your own adventure.
+* [[Nerd Huntr]] - ARDrone hunting
+* [[CensoredTweet]] - You take your **** and **** the shit out of them
+* [[Turnflict]] - Cross Platform Cloud-backed Turn Based Strategy
+*  [[Musiroids]] - A hack of Asteroids game that makes it increase in difficulty according to the tempo of the song.
+* [[Cloud Assassin]] - Bringing the popular, live action game Assassin _to 
+the cloud!_
+* [[Courier]] - Do you have the courage? &lt;3
+* [[Twetris]] - Expand your twitter following by playing Tetris
+* [[BeeHive]] - AR Drone Maze Race
+* [[FoodAttack]]
+* [[WordBurst]] - Location based real time group hangman 
+* [[Drain Valve]] - Biolab eXtreme
+* [[Project &quot;Baldur&quot;]] - Top-down shooter with &quot;skills&quot;
+* [[Dancing ARdrone]] - dance interpreted through robotics. Ish. 
+* [[SchadenFreude]] - Help your favorite celebrity
+* [[Filter Feeder]] - Underwater arcade..
+* [[Hadokam]] - I CAN HAZ FACE ON STREET FIGHTER (come to room 2)!
+* [[Just a Flesh Wound]] - Kinect for Windows 7 SDK Beta on Microsoft Stack
+* [[Predict-a-ball]] - live baseball stats prediction marketplace
+* [[LGHTtag]] - Open source laser tag platform - YOUR IT
+* [[Your Face]] - Shoot your friends in the face... REAL TIME!
+* [[World of Fourcraft]] - FourSquare + Risk + WoW + NYC
+* [[ChuClone]] - 2.5D HTML5 game that uses 2D physics (Box2D), but is drawn in 3D (Three.js)
+
+## Other Pages
+* [[Press]] - Press Coverage
+* [[Schedule]]
+* [[Presentations]] - Framework, API &amp; Hardware Presentations
+* [[Project Ideas]] - A list of project ideas and contact information to organize groups.
+* [[Resources]] - stuff that might be helpful this weekend
+* [[Demo Signup]] - Closes at noon on Sunday.
+* [[Prizes]] - Sweet gadgets and cold hard cash.
+* [[Hiring]] - Who's hiring?
+* [[Volunteers]] - Details for volunteers.
+
+## Communications
+* Main site: [http://gamehackday.org](http://gamehackday.org)
+* Twitter: [@gamehackday](http://twitter.com/gamehackday) [#gamehackday](https://twitter.com/search/%23gamehackday)
+* \#gamehackday on irc.freenode.net
+* Convore: [http://convore.com/game-hack-day](http://convore.com/game-hack-day)
+* [Partychat](http://partych.at): Invite `gamehackday@partychapp.appspotchat.com` to chat on Google Chat/Jabber and say 'hi'
+* Flickr, Youtube, Vimeo etc: Tag content with 'gamehackday' and 'nyc'
+* Contact organizer: [@johndbritton](http://twitter.com/johndbritton)
+* **Turntable** Get on it! name: gamehackday</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>
