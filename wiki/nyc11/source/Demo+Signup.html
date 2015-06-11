@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Demo Signup in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' ># Signup to demo
+
+[[Example Hack]] - Short description of your hack goes here.
+
+1. [[uchoos]] - A phone-based choose your own adventure.
+1. [[Nerd Huntr]] - ARDrone hunting
+1. [[CensoredTweet]] - You take your **** and **** the shit out of them
+1. [[Turnflict]] - Cross Platform Cloud-backed Turn Based Strategy
+1. [[Musiroids]] - A hack of Asteroids game that makes it increase in difficulty according to the tempo of the song.
+1. [[Cloud Assassin]] - Bringing the popular, live action game Assassin _to 
+the cloud!_
+1. [[Courier]] - Do you have the courage? &lt;3
+1. [[Twetris]] - Expand your twitter following by playing Tetris
+1. [[BeeHive]] - AR Drone Maze Race
+1. [[FoodAttack]]
+1. [[WordBurst]] - Location based real time group hangman 
+1. [[Drain Valve]] - Biolab eXtreme
+1. [[Project &quot;Baldur&quot;]] - Top-down shooter with &quot;skills&quot;
+1. [[Dancing ARdrone]] - dance interpreted through robotics. Ish. 
+1. [[SchadenFreude]] - Help your favorite celebrity
+1. [[Filter Feeder]] - Underwater arcade..
+1. [[Hadokam]] - I CAN HAZ FACE ON STREET FIGHTER (come to room 2)!
+1. [[Just a Flesh Wound]] - Kinect for Windows 7 SDK Beta on Microsoft Stack
+1. [[Predict-a-ball]] - live baseball stats prediction marketplace
+1. [[LGHTtag]] - Open source laser tag platform - YOUR IT
+1. [[Your Face]] - Shoot your friends in the face... REAL TIME!
+1. [[World of Fourcraft]] - FourSquare + Risk + WoW + NYC
+1. [[ChuClone]] - 2.5D HTML5 game that uses 2D physics (Box2D), but is drawn in 3D (Three.js)</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

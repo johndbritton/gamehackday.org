@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Pusher in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' ># Pusher at Game Hack Day
+[http://pusher.com](http://pusher.com)
+
+Pusher provides an API for realtime messaging. 
+
+## Contact Info
+* On the day: Matthew [@kanwisher](http://twitter.com/kanwisher) (our awesome NYC fan who's going to be presenting the API)
+* Phil Leggetter (Developer Evangelist) will be available over email/twitter - phil at pusher dot com
+* [@leggetter](http://twitter.com/leggetter)
+* [@pusherapp](http://twitter.com/pusherapp)
+* Support - info at pusher dot com
+* Documentation - [http://pusher.com/docs](http://pusher.com/docs)
+
+## Client events
+If you're building a fast paced game, you may want to use Pusher's beta [client events](http://pusher.com/docs/client_events) feature. To do this it must be enabled in your app. Send a request to info at pusher dot com with GAMEHACKDAY in the subject and we'll do this for you as quickly as possible!
+
+Alternatively, we have created an open account that will be available for the weekend. It has client events enabled. Just make sure you use a unique channel name in your app so you don't step on someone else's toes!
+
+Pusher access credentials
+
+    app_id = '6477'
+    key = '83d652b1c3204e365939'
+    secret = '5d1c2e1eef265f638e6f'
+
+## Examples
+* [Pusher in the wild](http://pusher.com/examples) - A bunch of cool apps using Pusher
+* [Netris Demo](https://github.com/mattkanwisher/html5_tetris_multiplayer) - Open source demo of using the pusher api to do tetris
+
+## Prize
+Free Bootstrap plan for 1 year (worth $228) for the most awesome use of Pusher.
+</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

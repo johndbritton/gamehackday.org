@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      OpenTok in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >##OpenTok, powered by TokBox##
+[http://tokbox.com](http://tokbox.com)
+
+## Contact Information ##
+* Ankur Oberoi ankur at tokbox dot com
+* twitter: ankuroberoi
+* twitter: tokboxdev
+
+##OpenTok - Hit the ground running##
+* [Getting Started](http://www.tokbox.com/opentok/api/tools/js/gettingstarted)
+* Get your API Key and visit opentok.com explore the documentation further.
+
+##Prize##
+Xbox 360 Kinect 4GB
+
+##Tips &amp; Tricks##
+
+###The Concepts###
+
+**Session (Tokens)** - Think of a session as a room a user will connect to. People in that room can either be showing their own video (Publishing) or watching other people's video (Subscribing) or both. Everyone that walks into that room needs a token to get in. The token describes their permissions. Subscribers are allowed to watch video, Publishers are allowed show video, and Moderators are allowed to kick people out.
+
+**Connection** - Whether a user is just watching (subscribing) or actually publishing, they need a connection. Creating a connection is done by calling session.connect() on the client-side.
+
+**Stream** - A stream represents the video of an individual publisher (unless you explicitly ask for it to be multiplexed). You find streams in two places: the event object passed to your sessionConnected handler (when the client starts his own connection), and the event object passed to your streamCreated handler (when others join the session you are connected to).
+
+###You App's Interaction###
+
+
+
+###Implementation###
+
+1. Decide on your interaction. Are you building One-to-One, One-to-Many, Many-to-Many, etc?
+
+1. Write your client-side code (Javascript or Actionscript) first. All the moving parts are down on the client. Feel free to use the sample session and token from Basic Tutorial to test this portion. There is also plenty of sample code you can find in the Tutorials section that you can grab and manipulate for all the API features.
+
+1. Plug in your server side code. There are only two operations you typically do on the server-side: generating sessions and generating tokens. Download one of our libraries or check out the community contributed code for more.
+
+###Tips###
+
+* On the client side, the publisher always represents that particular user/client, subscribers are always other users in the session. When you generate tokens you can decide on who the &quot;moderator&quot; role belongs to, as well as &quot;publisher&quot; and &quot;subscriber&quot; roles.
+* OpenTok stays out of the way of user-management as much as it can. This means in most cases you can keep track of your users in any manner you want (database, in memory structures, etc). You will likely want to store some info about a user along with the session they belong to in one of these structures.
+* There are plenty of implementations in our Showcase and a few are open-source and available on our github repo. This may be a good place to look if you start getting stuck.
+</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

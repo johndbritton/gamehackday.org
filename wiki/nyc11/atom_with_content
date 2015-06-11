@@ -1,0 +1,811 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>Game Hack Day NYC</title>
+  <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/HomePage"/>
+  <link rel="self" href="http://wiki.gamehackday.org/nyc11/atom_with_content"/>
+  <updated>2015-06-11T07:38:02Z</updated>
+  <id>tag:wiki.gamehackday.org,2011-06-23:Game+Hack+Day+NYC</id>
+  <subtitle>An Instiki Wiki</subtitle>
+  <generator uri="http://golem.ph.utexas.edu/instiki/show/HomePage" version="0.18.1(MML+)">Instiki</generator>
+  <entry>
+    <title type="html">Twilio</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/Twilio"/>
+    <updated>2015-06-11T07:38:02Z</updated>
+    <published>2011-06-23T07:46:16Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-23:Game Hack Day NYC,Twilio</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/Twilio">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p><img alt='Twilio Logo' src='http://www.twilio.com/packages/company/img/logos_downloadable_logobrand.png'/></p>
+
+<h1 id='twilio_at_game_hack_day_1'>Twilio at Game Hack Day</h1>
+
+<p><a href='http://twilio.com'>http://twilio.com</a></p>
+
+<p>Twilio provides an API for voice and SMS. You can build applications that make and receive phone calls and send and receive text messages.</p>
+
+<h2 id='contact_info_2'>Contact Info</h2>
+
+<ul>
+<li>John Britton - jdb at twilio dot com</li>
+
+<li><a href='http://twitter.com/johndbritton'>@johndbritton</a></li>
+
+<li><a href='http://twitter.com/twilio'>@twilio</a></li>
+
+<li>Support - help at twilio dot com</li>
+
+<li>Documentation - <a href='http://twilio.com/docs'>http://twilio.com/docs</a></li>
+</ul>
+
+<h2 id='inspiration__examples_3'>Inspiration / Examples</h2>
+
+<ul>
+<li><a href='http://twilio.com/gallery'>Twilio Gallery</a> - Gallery of Twilio Applications</li>
+
+<li><a href='http://twilly.no.de'>Touch Tone Tanks</a> - Real time tank game using Twilio as a control device.</li>
+
+<li><a href='http://www.twilio.com/blog/2011/04/josh-cuppett-wins-our-fun-games-developer-contest.html'>Voice Adventure</a> - A text adventure game you play over the phone.</li>
+</ul>
+
+<h2 id='account_upgrades_4'>Account Upgrades</h2>
+
+<p>Find me at the event if you want to score some free credit or an account upgrade.</p>
+
+<h2 id='prize_5'>Prize</h2>
+
+<p>$250 Twilio credit to the best use of the Twilio API</p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">Volunteers</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/Volunteers"/>
+    <updated>2015-06-11T07:37:42Z</updated>
+    <published>2011-06-24T23:52:00Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-24:Game Hack Day NYC,Volunteers</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/Volunteers">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id='saturday_1'>Saturday</h1>
+
+<h2 id='830_am_2'>8:30 AM</h2>
+
+<ul>
+<li>Setup tables and chairs,</li>
+
+<li>Powerstrips and tape wires</li>
+
+<li>Setup registration</li>
+</ul>
+
+<h2 id='900_am_3'>9:00 AM</h2>
+
+<ul>
+<li>Breakfast goes out (all volunteers)</li>
+</ul>
+
+<h2 id='1000_am_4'>10:00 AM</h2>
+
+<ul>
+<li>API demos start</li>
+
+<li>Aidan recording video</li>
+</ul>
+
+<h2 id='1115_am_5'>11:15 AM</h2>
+
+<ul>
+<li>1 minute game idea pitches</li>
+
+<li>Frank will keep a list on <a class='existingWikiWord' href='/nyc11/show/Project+Ideas'>Project Ideas</a></li>
+</ul>
+
+<h2 id='1215_pm_6'>12:15 PM</h2>
+
+<ul>
+<li>Workshops start, hacking begins</li>
+
+<li>Gameduino in Media Room</li>
+
+<li>Kinect in Library</li>
+</ul>
+
+<h2 id='100_pm_7'>1:00 PM</h2>
+
+<ul>
+<li>Lunch is served (all volunteers)</li>
+</ul>
+
+<h2 id='230_pm_8'>2:30 PM</h2>
+
+<ul>
+<li>Clear lunch</li>
+
+<li>Supply snacks</li>
+</ul>
+
+<h2 id='600_pm_9'>6:00 PM</h2>
+
+<ul>
+<li>Dinner is served (all volunteers)</li>
+</ul>
+
+<h2 id='730_pm_10'>7:30 PM</h2>
+
+<ul>
+<li>Clear lunch</li>
+
+<li>Supply snacks</li>
+</ul>
+
+<h2 id='800_pm_11'>8:00 PM</h2>
+
+<ul>
+<li>Supply beer</li>
+
+<li>Music on</li>
+</ul>
+
+<h1 id='sunday_12'>Sunday</h1>
+
+<h2 id='200_am_13'>2:00 AM</h2>
+
+<ul>
+<li>No re-entry</li>
+</ul>
+
+<h2 id='800_am_14'>8:00 AM</h2>
+
+<ul>
+<li>Re-entry allowed again</li>
+</ul>
+
+<h2 id='900_am_15'>9:00 AM</h2>
+
+<ul>
+<li>Breakfast served</li>
+</ul>
+
+<h2 id='1030_am_16'>10:30 AM</h2>
+
+<ul>
+<li>Clear breakfast</li>
+
+<li>Supply snacks</li>
+</ul>
+
+<h2 id='1200_pm_17'>12:00 PM</h2>
+
+<ul>
+<li>Demo signup closes</li>
+</ul>
+
+<h2 id='100_pm_18'>1:00 PM</h2>
+
+<ul>
+<li>Setup for demos</li>
+
+<li>Lunch Served</li>
+
+<li>Supply Beer</li>
+
+<li>Supply Snacks</li>
+</ul>
+
+<h2 id='200_pm_19'>2:00 PM</h2>
+
+<ul>
+<li>Demos begin</li>
+
+<li>Aidan record demos</li>
+
+<li>Shane runs projector, gets teams on deck</li>
+</ul>
+
+<h2 id='400_pm_20'>4:00 PM</h2>
+
+<ul>
+<li>Demos end</li>
+
+<li>Voting</li>
+</ul>
+
+<h2 id='430_pm_21'>4:30 PM</h2>
+
+<ul>
+<li>Winners announced</li>
+</ul>
+
+<h2 id='500_pm_22'>5:00 PM</h2>
+
+<ul>
+<li>Kick everyone out</li>
+
+<li>Clean up</li>
+</ul>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">WordBurst</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/WordBurst"/>
+    <updated>2015-06-11T07:36:55Z</updated>
+    <published>2011-06-26T06:04:17Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-26:Game Hack Day NYC,WordBurst</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/WordBurst">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h2 id='wordburst_1'>WordBurst</h2>
+
+<p><a href='http://wordburst.herokuapp.com'>WordBurst Link</a></p>
+
+<h3 id='creators_2'>Creators</h3>
+
+<ul>
+<li>Micah Hawes-Sivitz</li>
+
+<li>Arnaldo Capo</li>
+
+<li>Paul Schumacher</li>
+</ul>
+
+<h3 id='about_the_hack_3'>About the Hack</h3>
+
+<h3 id='api__toolkits_4'>API / Toolkits</h3>
+
+<ul>
+<li>Nodejs</li>
+
+<li>jQuery</li>
+</ul>
+
+<h3 id='media_5'>Media</h3>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">World of Fourcraft</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/World+of+Fourcraft"/>
+    <updated>2015-06-11T07:36:32Z</updated>
+    <published>2011-06-26T00:04:28Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-26:Game Hack Day NYC,World+of+Fourcraft</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/World+of+Fourcraft">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<hr/>
+<p><img alt='World of Fourcraft Logo' src='http://worldoffourcraft.com/images/logo.png'/></p>
+
+<h2 id='world_of_fourcraft_1'>World of Fourcraft</h2>
+
+<h2 id='contact_2'>Contact</h2>
+
+<ul>
+<li><a href='mailto:worldof4craft@gmail.com'>worldof4craft@gmail.com</a></li>
+
+<li><a href='http://twitter.com/worldof4craft'>@worldof4craft</a></li>
+</ul>
+
+<h2 id='creators_3'>Creators</h2>
+
+<h3 id='ricky_robinett__backendfoursquare_hacking_4'>Ricky Robinett - back-end/Foursquare hacking</h3>
+
+<ul>
+<li><a href='http://about.me/rickyrobinett'>Ricky Robinett</a></li>
+
+<li><a href='http://twitter.com/rickyrobinett'>@rickyrobinett</a></li>
+
+<li><a href='mailto:richard.robinett@gmail.com'>richard.robinett@gmail.com</a></li>
+</ul>
+
+<h3 id='brian_wrightson__google_maps_hacking_5'>Brian Wrightson - Google Maps hacking</h3>
+
+<ul>
+<li><a href='http://brianwrightson.com'>Brian Wrightson</a></li>
+
+<li><a href='http://twitter.com/bwrightson'>@bwrightson</a></li>
+
+<li><a href='mailto:brian.wrightson@gmail.com'>brian.wrightson@gmail.com</a></li>
+</ul>
+
+<h3 id='chris_outram__backendframework_hacking_6'>Chris Outram - back-end/framework hacking</h3>
+
+<ul>
+<li><a href='http://twitter.com/outram'>@outram</a></li>
+</ul>
+
+<h3 id='hannah_robinett__designbulletproof_html_7'>Hannah Robinett - design/bulletproof HTML</h3>
+
+<ul>
+<li>
+<p><a href='http://hannahrobinett.com'>Hannah Robinett</a></p>
+</li>
+
+<li>
+<p><a href='http://twitter.com/hannahrobinett'>@hannahrobinett</a></p>
+</li>
+</ul>
+
+<h3 id='jeff_oconnell__javascriptoauth_hacking_8'>Jeff O’Connell - JavaScript/OAuth hacking</h3>
+
+<ul>
+<li><a href='http://twitter.com/jefforulez'>@jefforulez</a></li>
+
+<li><a href='mailto:jeff.oconnell@gmail.com'>jeff.oconnell@gmail.com</a></li>
+</ul>
+
+<h3 id='greg_zimerman__idea_hacking_9'>Greg Zimerman - idea hacking</h3>
+
+<ul>
+<li><a href='http://twitter.com/rrgrzcool'>@rrgrzcool</a></li>
+
+<li><a href='mailto:greg.zimerman@gmail.com'>greg.zimerman@gmail.com</a></li>
+</ul>
+
+<h3 id='jimmy_lee__unit_test_hacking_10'>Jimmy Lee - unit test hacking</h3>
+
+<ul>
+<li><a href='mailto:jim.subtractive@gmail.com'>jim.subtractive@gmail.com</a></li>
+</ul>
+
+<h2 id='about_the_hack_11'>About the Hack</h2>
+
+<p>World of Fourcraft is an adventure of Social Conquest.</p>
+
+<p>The object of the game is to join forces with your Borough Buddies and conquer New York City.</p>
+
+<p>There are no prizes. There are no celebrations. The only reward is the feeling of pride you normally only get from being re-tweeted.</p>
+<b>How do you play?</b>
+<ol>
+<li>Login into <a href='http://worldoffourcraft.com'>World of Fourcraft</a></li>
+
+<li>Swear your allegiance to your favorite Borough</li>
+
+<li>Incessantly check in on Foursquare, as you are want to do</li>
+
+<li>Visit the <a href='http://worldoffourcraft.com'>Battle Map</a> to get the latest news on The Social Wars. <img alt='Screenshot' src='http://worldoffourcraft.com/images/wof_screengrab.png'/></li>
+</ol>
+
+<h2 id='what_apis_tools_or_kit_did_you_use_12'>What APIs, tools or kit did you use?</h2>
+
+<ul>
+<li>foursquare API</li>
+
+<li>Google Maps API</li>
+
+<li>PHP</li>
+
+<li>MongoDB</li>
+</ul>
+
+<h2 id='media_13'>Media</h2>
+
+<ul>
+<li><a href='http://vimeo.com/25595737'>Video on Vimeo</a></li>
+
+<li><a href='http://worldoffourcraft.com/images/wof_screengrab.png'>Website Screengrab</a></li>
+</ul>
+
+<h2 id='source_code_and_links_14'>Source code and links</h2>
+
+<ul>
+<li><a href='http://worldoffourcraft.com/'>World of Fourcraft</a></li>
+</ul>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">Your Face</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/Your+Face"/>
+    <updated>2015-06-11T07:35:18Z</updated>
+    <published>2011-06-26T15:02:01Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-26:Game Hack Day NYC,Your+Face</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/Your+Face">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p> </p>
+
+<h1 id='__your_face_1'>$!@&amp; … Your Face!</h1>
+
+<h2 id='creators_2'>Creators</h2>
+
+<h3 id='haris_amin_3'>Haris Amin</h3>
+
+<ul>
+<li><a href='http://harisamin.tumblr.com'>Haris Amin</a></li>
+
+<li><a href='http://twitter.com/harisamin'>@harisamin</a></li>
+
+<li><a href='http://github.com/hamin'>@hamin</a></li>
+</ul>
+
+<h3 id='hristo_hristov_4'>Hristo Hristov</h3>
+
+<ul>
+<li><a href='http://twitter.com/ribeto'>@ribeto</a></li>
+</ul>
+
+<h2 id='about_the_hack_5'>About the Hack</h2>
+
+<p>Ever wanted to shoot your friend in the face from the comfort of your Webcam powered laptop….well now you can!</p>
+
+<h2 id='video_6'>Video</h2>
+
+<p><a href='http://www.youtube.com/watch?v=G_Uxgo7M9xU'>Your Face Demo</a></p>
+
+<h2 id='what_apis_tools_or_kit_did_you_use_7'>What APIs, tools or kit did you use?</h2>
+
+<p>We used OpenTok’s live Video Stream api to show the two players’ webcam feed. Built from scratch (from the ground up), this app was build as a NodeJS server using a Faye pub/sub server. All client side animations were done using just javascript and CSS. All Javascript (both client and server side) was written and compiled with Coffeescript.</p>
+
+<h2 id='media_8'>Media</h2>
+
+<p>If you have photos, audio, video or screenshots of your hack, put them here.</p>
+
+<h2 id='source_code_and_links_9'>Source code and links</h2>
+
+<ul>
+<li><a href='http://github.com/hamin/YourFace'>Source Code</a></li>
+</ul>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">bastaimpotenza</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/bastaimpotenza"/>
+    <updated>2015-06-11T06:02:20Z</updated>
+    <published>2014-05-10T10:43:25Z</published>
+    <id>tag:wiki.gamehackday.org,2014-05-10:Game Hack Day NYC,bastaimpotenza</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/bastaimpotenza">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">cwh@omgpop</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/cwh%40omgpop"/>
+    <updated>2015-06-11T06:02:08Z</updated>
+    <published>2011-06-25T14:24:45Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-25:Game Hack Day NYC,cwh%40omgpop</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/cwh%40omgpop">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p><strong>cwh</strong> works at <a href='http://wiki.gamehackday.org/nyc11/show/OMGPOP'>OMGPOP</a></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">free download game</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/free+download+game"/>
+    <updated>2015-06-11T06:01:52Z</updated>
+    <published>2011-06-23T17:18:20Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-23:Game Hack Day NYC,free+download+game</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/free+download+game">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h2 id='realtimemultiplayernodejs_1'>RealtimeMultiplayerNodeJS</h2>
+
+<p><a href='https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs'>https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs</a></p>
+
+<p><strong>RealtimeMultiplayerNodeJS</strong> is a framework specifically for building HTML5 multiplayer games with the Client / Server model in which the clients send only sampled input to the server.</p>
+
+<h2 id='contact_info_2'>Contact Info</h2>
+
+<ul>
+<li>Mario Gonzalez - mariogonzalez <em>at</em> gmail</li>
+
+<li><a href='http://twitter.com/1dayitwillmake'>@1dayitwillmake</a></li>
+</ul>
+
+<h2 id='slides_from_jsconf2011_3'>Slides from JSConf2011</h2>
+
+<p><a href='http://www.slideshare.net/MarioGonzalez15/realtime-html5-multiplayergameswithnodejs-7868336'>Slideshare</a> / <a href='https://github.com/onedayitwillmake/RealtimeMultiplayerNodeJs/raw/master/assets/github_pages/Realtime_HTML5_Multiplayer_Games_with_Node_js.pdf'>PDF download</a></p>
+
+<h2 id='how_to_use_4'>How to use</h2>
+
+<ol>
+<li>Download this repo</li>
+
+<li>In the terminal type “node js/DemoHelloWorld/server.js”</li>
+
+<li>Browse to “/DemoHelloWorld.html”</li>
+</ol>
+
+<p><a href='http://farm6.static.flickr.com/5105/5694643562_53e54993dd_o.png'><img alt='DemoBox2D' src='http://farm6.static.flickr.com/5105/5694643562_fffce8b9cf_z.jpg'/></a></p>
+
+<h1 id='realtimemultiplayernodejs_comes_with_3_demos_5'>RealtimeMultiplayerNodeJS comes with 3 demos</h1>
+
+<h3 id='demohelloworld_6'>DemoHelloWorld</h3>
+
+<p>The most basic interesting working demo I could come up with. Objects move from left to right <img alt='DemoHelloWorld' src='http://farm6.static.flickr.com/5309/5694599438_6fd56e21bd_b.jpg'/></p>
+
+<h3 id='democircle_7'>DemoCircle</h3>
+
+<p>A demonstration of the engine’s simple CircleCollision engine, which can provide you with simple collision information and fires an event when two objects collide with the two objects.<br/>This demo <strong>also shows one implementation</strong> of having a special kind of entity which is controlled by the keyboard from a connected user. <strong>A character controlled entity</strong><br/><img alt='DemoCircle' src='http://farm4.static.flickr.com/3483/5694599612_1cdb1f935e_b.jpg'/></p>
+
+<h3 id='demobox2d_8'>DemoBox2D</h3>
+
+<p>This demo uses a <a href='https://github.com/HBehrens/box2d.js'>Box2D.js</a> implementation to create a world, and show’s off the idea of synchronized physics, and taking advantage that all the simulation happens on the server.<br/>It also shows <strong>synchronized interaction</strong> between multiple users, and an example of sending a message to the server which it interprets back into the game<br/><img alt='DemoBox2D' src='http://farm6.static.flickr.com/5027/5694599478_7c9339c99c_b.jpg'/></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">johndbritton</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/johndbritton"/>
+    <updated>2015-06-11T06:01:03Z</updated>
+    <published>2011-06-23T05:03:58Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-23:Game Hack Day NYC,johndbritton</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/johndbritton">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p><a href='http://www.johndbritton.com'>johndbritton</a></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">kosongdua</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/kosongdua"/>
+    <updated>2015-06-11T06:00:39Z</updated>
+    <published>2011-06-23T07:46:27Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-23:Game Hack Day NYC,kosongdua</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/kosongdua">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id='gameduino_at_game_hack_day_1'>Gameduino at Game Hack Day</h1>
+
+<p><a href='http://gameduino.com'>http://gameduino.com</a></p>
+
+<p>Gameduino is the Arduino shield for 8-bit game creation. Sprites, scrolling, stereo sound; for old-school gaming action.</p>
+
+<p><img alt='Asteroids' src='http://excamera.com/sphinx/_images/asteroids-screenshot.jpg'/> <img alt='Platformer' src='http://excamera.com/sphinx/_images/bgcolor-screenshot.jpg'/> <img alt='Sprites' src='http://excamera.com/sphinx/_images/sprites256-screenshot.jpg'/> <img alt='Chopper' src='http://excamera.com/files/chopper.png'/></p>
+
+<h2 id='gameduino_workshop_2'>Gameduino Workshop</h2>
+
+<p>In the Media Room immediately following idea pitches. We have supplies for 20 Gameduinos on hand.</p>
+
+<h2 id='contact_info_3'>Contact Info</h2>
+
+<ul>
+<li>James Bowman - jamesb at gameduino dot com</li>
+
+<li><a href='http://twitter.com/gameduino'>@gameduino</a></li>
+
+<li>Documentation - <a href='http://excamera.com/sphinx/gameduino/'>http://excamera.com/sphinx/gameduino/</a></li>
+</ul>
+
+<h2 id='inspiration__examples_4'>Inspiration / Examples</h2>
+
+<ul>
+<li><a href='http://excamera.com/sphinx/gameduino/samples/asteroids/index.html'>Asteroids</a> - Scrolling space shooter</li>
+
+<li><a href='http://www.artlum.com/gameduino/gameduino.html#invaders'>Space Invaders</a> - pixel-perfect conversion</li>
+
+<li><a href='http://excamera.com/sphinx/gameduino/samples/bgcolor/index.html'>Platformer</a> - beginning of a platform game</li>
+
+<li><a href='http://excamera.com/sphinx/gameduino/samples/index.html'>More code samples</a></li>
+</ul>
+
+<p><img alt='Gameduino Poster' src='http://excamera.com/sphinx/_images/poster.jpg'/></p>
+
+<p><a href='http://excamera.com/files/gameduino/synth/doc/gen/poster.pdf'>Poster PDF</a></p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">nycgamers</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/nycgamers"/>
+    <updated>2015-06-11T06:00:24Z</updated>
+    <published>2013-09-11T20:10:59Z</published>
+    <id>tag:wiki.gamehackday.org,2013-09-11:Game Hack Day NYC,nycgamers</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/nycgamers">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">onedayitwillmake</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/onedayitwillmake"/>
+    <updated>2015-06-11T06:00:09Z</updated>
+    <published>2011-07-04T15:21:56Z</published>
+    <id>tag:wiki.gamehackday.org,2011-07-04:Game Hack Day NYC,onedayitwillmake</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/onedayitwillmake">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">uchoos</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/uchoos"/>
+    <updated>2015-06-11T05:59:26Z</updated>
+    <published>2011-06-26T00:42:07Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-26:Game Hack Day NYC,uchoos</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/uchoos">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<h1 id='uchoos_1'>uchoos</h1>
+
+<h2 id='creator_2'>Creator</h2>
+
+<h3 id='brian_fountain_3'>Brian Fountain</h3>
+
+<ul>
+<li><a href='http://brianfountain.com'>Personal site</a></li>
+
+<li><a href='http://twitter.com/fountain'>@fountain</a></li>
+</ul>
+
+<h2 id='about_the_hack_4'>About the Hack</h2>
+
+<p>uchoos is a phone-based choose your own adventure game</p>
+
+<h2 id='what_apis_tools_or_kit_did_you_use_5'>What APIs, tools or kit did you use?</h2>
+
+<p>Heroku, Twilio, Ruby on Rails</p>
+
+<h2 id='media_6'>Media</h2>
+
+<ul>
+<li><a href='http://www.uchoos.com'>www.uchoos.com</a></li>
+
+<li><a href='http://twitter.com/uchoos'>@uchoos</a></li>
+
+<li>Call to play: 917.338.3991</li>
+</ul>
+
+<h2 id='source_code_and_links_7'>Source code and links</h2>
+
+<p>will post after demo</p>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">Just a Flesh Wound</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/Just+a+Flesh+Wound"/>
+    <updated>2015-06-11T05:44:43Z</updated>
+    <published>2011-06-26T15:52:29Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-26:Game Hack Day NYC,Just+a+Flesh+Wound</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/Just+a+Flesh+Wound">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<p>  </p>
+
+<h3 id='the_winner_of_2011_new_york_city_game_hack_day_for_the_team_who_best_represented_the_spirit_and_culture_of_implementing_cuttingedge_gaming_technologies_spirit_of_riot_games_award_1'>The Winner of 2011 New York City Game Hack Day for the Team who best represented the Spirit and Culture of implementing cutting-edge gaming technologies (Spirit of Riot Games Award!)</h3>
+
+<h2 id='creators_2'>Creators</h2>
+
+<h3 id='pitsimulatorcom_3'>PitSimulator.com</h3>
+
+<ul>
+<li><a href='http://www.PitSimulator.com'>PitSimulator.com</a></li>
+
+<li><a href='http://twitter.com/#!/PitSimulator'>@PitSimulator</a></li>
+
+<li><a href='mailto:support@PitSimulator.com'>support@PitSimulator.com</a></li>
+
+<li><a href='mailto:support@PitSimulator.com'>646-470-0193</a></li>
+</ul>
+
+<h2 id='about_the_kinect_hack_on_microsoft_stack_4'>About the Kinect Hack on Microsoft Stack</h2>
+
+<p>Modified Microsoft sample. Two figures throwing stars at each other causing removal of their opponent’s controller body parts until not even feet are left!</p>
+
+<h2 id='what_apis_tools_or_kit_did_you_use_5'>What APIs, tools or kit did you use?</h2>
+
+<ul>
+<li>Kinect for Windows 7 SDK beta from Microsoft Research with Visual Studio 2010. <a href='http://research.microsoft.com/kinectsdk'>You can find Kinect for Windows 7 SDK beta here</a></li>
+
+<li>Many thanks to Sean Kean from <a href='http://meetup.com/volumetric/'>The New York City Volumetric OpenKinect Meetup Group http://meetup.com/volumetric/</a></li>
+</ul>
+
+<h2 id='do_you_have_development_needs_6'>Do you have development needs?</h2>
+
+<h3 id='contact_us_now_supportpitsimulatorcom_7'>Contact us now <a href='mailto:support@PitSimulator.com'>support@PitSimulator.com</a></h3>
+
+<p><img alt='Kinect PitSimulator.com' src='http://pitsimulator.com/screens/Kinect_PitSimulatorDotCom_1.jpg'/> <img alt='Kinect PitSimulator.com' src='http://pitsimulator.com/screens/Kinect_PitSimulatorDotCom_with_Sean.jpg'/></p>
+
+<h4 id='check_out_our_apps_for_windows_phone_alpha_memory__the_memory_workout_8'>Check out our apps for Windows Phone: Alpha Memory - the memory workout.</h4>
+
+<h4 id='for_alpha_memory_video_tutorial_on_youtube_click_here_or_copy_and_paste_this_link_httpwwwpitsimulatorcom_9'><a href='http://www.PitSimulator.com'>For Alpha Memory video tutorial on youtube click here or copy and paste this link:</a> http://www.PitSimulator.com</h4>
+
+<h2 id='media_10'>Media</h2>
+
+<p>Check out our <a href='http://www.PitSimulator.com'>Windows Phone 7 apps on PitSimulator.com</a> or directly on <a href='http://social.zune.net/redirect?type=phoneApp&amp;id=dae529d4-dd93-e011-986b-78e7d1fa76f8'>Zune Marketplace Software for Windows here: http://social.zune.net/redirect?type=phoneApp&amp;id=dae529d4-dd93-e011-986b-78e7d1fa76f8</a></p>
+
+<h2 id='alpha_memory_app_for_windows_phone_11'>Alpha Memory App for Windows Phone</h2>
+
+<p><img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sAlpha_Memory_WP7_download.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture1.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture2.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture3.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture5.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture6.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture7.jpg'/> <img alt='Alpha Memory App for Windows Phone' src='http://pitsimulator.com/screens/small/sCapture8.jpg'/></p>
+
+<h2 id='source_code_and_links_12'>Source code and links</h2>
+
+<ul>
+<li><a href='http://social.zune.net/redirect?type=phoneApp&amp;id=dae529d4-dd93-e011-986b-78e7d1fa76f8'>http://social.zune.net/redirect?type=phoneApp&amp;id=dae529d4-dd93-e011-986b-78e7d1fa76f8</a></li>
+
+<li>If you are interested in source code for the Kinect sample <a href='mailto:support@PitSimulator.com'>send us an email to: support@PitSimulator.com</a></li>
+</ul>      </div>
+    </content>
+  </entry>
+  <entry>
+    <title type="html">Turnflict</title>
+    <link rel="alternate" type="application/xhtml+xml" href="http://wiki.gamehackday.org/nyc11/show/Turnflict"/>
+    <updated>2015-06-11T05:42:52Z</updated>
+    <published>2011-06-25T13:48:16Z</published>
+    <id>tag:wiki.gamehackday.org,2011-06-25:Game Hack Day NYC,Turnflict</id>
+    <author>
+      <name>AnonymousCoward</name>
+    </author>
+    <content type="xhtml" xml:base="http://wiki.gamehackday.org/nyc11/show/Turnflict">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+<hr/>
+<h1 id='turnflict_1'>Turnflict</h1>
+
+<p>A cross platform turn based strategy game.</p>
+
+<p><a href='https://github.com/Apreche/Turnflict'>https://github.com/Apreche/Turnflict</a></p>
+
+<h2 id='needs_2'>Needs</h2>
+
+<ul>
+<li>Javascript/JQuery</li>
+
+<li>Art</li>
+</ul>
+
+<h2 id='contact_3'>Contact</h2>
+
+<p>Name is Scott. Wearing PAX East shirt.</p>
+
+<p>My name is Apreche everywhere on the Internet.</p>
+
+<p>You should copy the format below and use it as a template for your hack.</p>
+<hr/>
+<h1 id='hack_name_4'>Hack Name</h1>
+
+<h2 id='creators_5'>Creators</h2>
+
+<h3 id='scott_rubin_6'>Scott Rubin</h3>
+
+<ul>
+<li><a href='http://apreche.net'>Blog</a></li>
+
+<li><a href='http://frontrowcrew.com'>GeekNights Podcast</a></li>
+
+<li><a href='http://twitter.com/Apreche'>@Apreche</a></li>
+</ul>
+
+<h2 id='about_the_hack_7'>About the Hack</h2>
+
+<p>Turn-based strategy game in the style of Advance Wars. Play one turn at a time on any device connected to the Internet.</p>
+
+<h2 id='what_apis_tools_or_kit_did_you_use_8'>What APIs, tools or kit did you use?</h2>
+
+<p>CouchDB, Django, MySQL, Python, JQuery, HTML5, Canvas, Skeleton CSS</p>
+
+<h2 id='source_code_and_links_9'>Source code and links</h2>
+
+<ul>
+<li><a href='http://turnflict.frontrowcrew.com'>Turnflict</a></li>
+
+<li><a href='https://github.com/Apreche/Turnflict'>Github</a></li>
+</ul>      </div>
+    </content>
+  </entry>
+</feed>

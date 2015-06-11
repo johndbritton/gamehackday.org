@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Your Face in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >[[!redirects Your Face!]]
+[[!redirects $!@&amp; Your Face!]]
+# $!@&amp; ... Your Face!
+
+## Creators
+### Haris Amin
+* [Haris Amin](http://harisamin.tumblr.com)
+* [@harisamin](http://twitter.com/harisamin)
+* [@hamin](http://github.com/hamin)
+
+### Hristo Hristov
+* [@ribeto](http://twitter.com/ribeto)
+
+## About the Hack
+Ever wanted to shoot your friend in the face from the comfort of your Webcam powered laptop....well now you can!
+
+## Video
+[Your Face Demo](http://www.youtube.com/watch?v=G_Uxgo7M9xU)
+
+## What APIs, tools or kit did you use?
+We used OpenTok's live Video Stream api to show the two players' webcam feed. Built from scratch (from the ground up), this app was build as a NodeJS server using a Faye pub/sub server. All client side animations were done using just javascript and CSS. All Javascript (both client and server side) was written and compiled with Coffeescript.
+
+## Media
+If you have photos, audio, video or screenshots of your hack, put them here.  
+
+## Source code and links
+* [Source Code](http://github.com/hamin/YourFace)</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>

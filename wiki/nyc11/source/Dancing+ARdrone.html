@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0 plus SVG 1.1//EN" "http://www.w3.org/2002/04/xhtml-math-svg/xhtml-math-svg-flat.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>
+      Dancing ARdrone in Game Hack Day NYC
+  </title>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="robots" content="noindex,nofollow" />
+  
+  <style type="text/css">
+    h1#pageName, div.info, .newWikiWord a, a.existingWikiWord, .newWikiWord a:hover, [actiontype="toggle"]:hover, #TextileHelp h3 { 
+      color: #C50; 
+    }
+    
+  </style>
+  <link href="../../stylesheets/instiki.css%3F1317219249.css" media="all" rel="stylesheet" type="text/css" />
+  
+  <style type="text/css"><!--/*--><![CDATA[/*><!--*/    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  /*]]>*/--></style>
+  <script src="../../javascripts/prototype.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/effects.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/dragdrop.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/controls.js%3F1317219249" type="text/javascript"></script>
+<script src="../../javascripts/application.js%3F1317219249" type="text/javascript"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+function updateSize(elt, w, h) {
+   // adjust to the size of the user's browser area.
+   // w and h are the original, unadjusted, width and height per row/column
+    var parentheight = document.viewport.getHeight();
+    var parentwidth = $('Container').getWidth();
+    elt.writeAttribute({'cols': Math.floor(parentwidth/w)  - 1,
+                        'rows': Math.floor(parentheight/h) - 2 });
+    elt.setStyle({Width: parentwidth, Height: parentheight});
+}
+
+function resizeableTextarea() {
+//make the textarea resize to fit available space
+  $$('textarea#content').each( function(textarea)  {
+    var w = textarea.getWidth()/textarea.getAttribute('cols');
+    var h = textarea.getStyle('lineHeight').replace(/(\d*)px/, "$1");
+    Event.observe(window, 'resize', function(){ updateSize(textarea, w, h) });
+    updateSize(textarea, w, h);
+    Form.Element.focus(textarea);
+  });
+}
+
+window.onload = function (){
+        resizeableTextarea();
+}
+//--><!]]>
+</script>
+</head>
+
+<body>
+
+<div id="Container">
+<textarea id='content'  readonly=' readonly' rows='24' cols='60' >You should copy the format below and use it as a template for your hack.
+
+***
+# Dancing ARdrone
+
+## Creators
+### Sara Farmer
+* [Overcognition.com](http://blog.overcognition.com/)
+* [@bodaceacat](http://twitter.com/#!/bodaceacat)
+
+## About the Hack
+I tried to make an AR Drone dance. This didn't turn into anything substantial, but hopefully will spark off some ideas (and I'm definitely going to keep playing with this myself). I mean, we can take-off, land, take photos with the AR Drone, but we're not really expressing its creative side yet, are we, and growing its hair long would just clog up its propellors. 
+
+What we have so far is a set of pre-programmed dance moves: 
+* Waltz
+* Boogie
+* Dad dancing at wedding
+
+Hopefully this will grow into an entire vocabulary of moves that we can put together to make the AR Drone properly rule the dance floor (or at least be groovily-unpredictable enough to scare everyone else off it).
+
+NB when I uploaded and tagged video of the first drone dances to youtube, several similar projects showed up. These could be worth investigating too.
+
+## What APIs, tools or kit did you use?
+Wrote everything in Python on an Ubuntu laptop (the OSX version didn't work with the pygame that python-ardrone used to connect to the keyboard and drone camera, but should work fine without it): used the python-ardrone python extensions for AR Drone, and downloaded the Open Kinect python toolkit for the Kinect (but couldn't quite get it to work on my Ubuntu 11 stack).  Also looked at EchoNest music analysis API, and am looking at opencv and the python fft and spectrogram tools in numpy and pylab.
+
+## Media
+[First dance moves](http://www.youtube.com/watch?v=QLGTTprl3LE) (waltz, boogie, dad-dancing-at-wedding).
+
+## Source code and links
+
+Source code is in github repo [ArdroneDance](https://github.com/bodacea/ArdroneDance)
+
+Dance moves... 
+
+* http://www.videojug.com/film/dance-moves-an-emergency-guide-for-men lcrcfcfc
+
+* http://nymag.com/daily/entertainment/2010/08/biebers_greatest_moves.html 
+
+
+Options: 
+
+* Make drone move in time to music beat - needs soem cool preprogrammed dance moves and beat detection; two people have suggested same prg (EchoNest) so far... also see  http://www.python-forum.org/pythonforum/viewtopic.php?f=18&amp;t=8675 – suggests numpy.fft and pylab.specgram  
+* Make drone mirror human movement - either from video (needs image processing, e.g. [ar_recog](http://code.google.com/p/brown-ros-pkg/wiki/ar_recog)), or (better) from Kinect
+* Make drone move in response to signals - either keyboard (slow) or Wii (needs bluetooth, i.e. Mac)
+* Cheat by pre-programming a series of dance moves to match a known song. Yep, we can do this as an example!
+
+Timings etc:
+* House music is around 120 bpm (beats per minute)
+* most salsa dancing is done to music somewhere between 160–220 bpm. (see [here](http://en.wikipedia.org/wiki/Salsa_%28dance%29))
+* Most dance styles are over 3, 4 or 8 beats. 
+* So roughly 2 moves every second (eg. a sashay side to side) is about right. 
+</textarea>
+</div> <!-- Container -->
+
+</body>
+</html>
